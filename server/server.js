@@ -1,7 +1,9 @@
-require('./config/config')
+//require('./config/config')
 
 const express = require('express');
 const app = express();
+
+process.env.PORT = process.env.PORT || 3000
 
 var bodyParser = require('body-parser');
 // parse application/x-www-form-urlencoded
