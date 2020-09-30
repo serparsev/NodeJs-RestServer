@@ -27,3 +27,24 @@
  }
 
  process.env.URLDB = urlDB
+
+
+
+ //=========
+ // Vencimiento token
+ //=========
+ // 60s
+ // 60min
+ // 24h
+ // 30 dias
+
+ process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+
+
+
+ //=========
+ // SEED de autentificacion
+ //=========
+
+
+ process.env.SEED = process.env.SEED || 'este-es-el-seed-desarollo';
